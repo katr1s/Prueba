@@ -5,10 +5,14 @@
     </title>
   </head>
   <body>
-    <script>
-      let id = process.env.ID
+    <div class="h">
       
-      document.write(id)
+    </div>
+    <script>
+      let h = document.querySelector('.h')
+      let id = process.env.ID
+
+      h.innerHTML = id
     </script>
   </body>
 </HTML>
